@@ -1,0 +1,40 @@
+/* 
+Crie uma página HTML simples contendo um elemento que represente uma caixa de conteúdo.
+Essa caixa deverá ser estilizada utilizando CSS para demonstrar visualmente os componentes do Box Model.
+Para isso, siga os passos abaixo:
+    1. Crie um elemento <div> com uma classe chamada caixa.
+    2. Dentro dessa caixa, escreva um pequeno texto explicando que ela representa um exemplo do Box Model.
+    3. No arquivo CSS, aplique as seguintes propriedades:
+        - Uma cor de fundo clara para destacar o elemento
+        - Um padding de 20px para criar espaço interno
+        - Uma borda sólida ao redor da caixa
+        - Uma margem externa para afastar a caixa de outros elementos da página
+Observe como cada propriedade altera a aparência da caixa.
+*/
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.caixa {
+    /* Cor de fundo clara para destacar o elemento */
+    background-color: #a8dfff;
+
+    /* Padding de 20px para criar espaço interno (Espaço entre o texto e a borda) */
+    padding: 20px;
+
+    /* Borda sólida ao redor da caixa */
+    border: 5px solid #3498db;
+
+    /* Margem externa para afastar a caixa de outros elementos da página */
+    margin: 30px;
+
+    /* extra */
+    max-width: 400px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #333;
+}
