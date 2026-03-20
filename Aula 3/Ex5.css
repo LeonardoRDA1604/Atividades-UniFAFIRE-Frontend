@@ -1,0 +1,59 @@
+/* 
+Exercício 5
+Crie uma página HTML contendo um card informativo sobre tecnologia.
+
+Esse card deverá possuir:
+    ● um título
+    ● um pequeno parágrafo de descrição
+    ● uma borda
+    ● um fundo colorido
+    ● espaçamento interno (padding)
+    ● espaçamento externo (margin)
+    ● O card deve parecer uma caixa destacada dentro da página.
+
+Além disso, aplique as seguintes regras:
+    1. O fundo do card deve possuir uma cor clara.
+    2. O card deve possuir padding de 20px.
+    3. O card deve possuir borda de 2px sólida.
+    4. O card deve possuir margin de 30px para afastá-lo das bordas da página.
+    5. O título deve estar centralizado.
+*/
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Card */
+.card-tech {
+    background-color: #ffffff;        /* 1. Fundo do card com cor clara */
+    padding: 20px;                      /* 2. Padding de 20px */
+    border: 2px solid #3498db;        /* 3. Borda de 2px sólida */
+    margin: 30px;                       /* 4. Margin de 30px */
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 5. Título centralizado */
+.card-tech h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.card-tech p {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
