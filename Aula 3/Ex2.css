@@ -1,0 +1,32 @@
+/* 
+Crie dois elementos de conteúdo em sua página para analisar a diferença entre margin e padding.
+Para isso:
+1. Crie duas caixas HTML:
+    - uma chamada caixaA
+    - outra chamada caixaB
+2. A caixa A deve utilizar padding maior, criando espaço interno.
+3. A caixa B deve utilizar margin maior, criando espaço externo.
+4. Ambas devem possuir borda e cor de fundo para facilitar a visualização.
+
+Analise visualmente qual caixa aparenta ser maior e qual possui maior afastamento em relação
+aos outros elementos.
+*/
+
+.caixa {
+    border: 3px solid #333;
+    background-color: #a06dff;
+    font-family: sans-serif;
+    width: 300px;
+}
+
+/* Caixa A: Foco no Espaço Interno */
+.caixaA {
+    padding: 60px;
+    margin: 10px;
+}
+
+/* Caixa B: Foco no Espaço Externo */
+.caixaB {
+    padding: 10px;
+    margin: 60px;
+}
